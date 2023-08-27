@@ -29,8 +29,6 @@ The main objective is to predict 'hospital_death', a binary variable representin
 
 7. **SHAP Values for Model Interpretation:** SHAP values offer insights into feature impacts but can be complex to interpret, requiring additional effort to convey their significance.
 
-8. **Model Deployment:** The deployment process is a challenging task due to the intricate nature of healthcare systems and the need for model validation in real-world scenarios. The deployment process can sometimes face technical glitches or operational hurdles.
-
 ## Impact
 This project underscores the significance of predictive models in healthcare. While it shows potential to aid medical decision-making, it also highlights the complexities and limitations in handling sensitive medical data. The deployment and integration of models into healthcare workflows require careful consideration of ethical, legal, and operational aspects. Moreover, the project emphasizes the need for continuous monitoring and improvement to ensure models remain accurate and relevant in dynamic healthcare environments.
 
