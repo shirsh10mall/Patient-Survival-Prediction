@@ -34,4 +34,4 @@ This project underscores the significance of predictive models in healthcare. Wh
 
 #### Classification Results for DNN Model
 
-Epoch 25/25 - loss: 0.1956 - accuracy: 0.9422 - auc: 0.8909 - val_loss: 0.1993 - val_accuracy: 0.9433 - val_auc: 0.8978
+Epoch 30/100 (Early Stopping) - loss: 0.1898 - accuracy: 0.9296 - auc: 0.8938 - val_loss: 0.2112 - val_accuracy: 0.9226 - val_auc: 0.8804
