@@ -32,6 +32,6 @@ The main objective is to predict 'hospital_death', a binary variable representin
 ## Impact
 This project underscores the significance of predictive models in healthcare. While it shows potential to aid medical decision-making, it also highlights the complexities and limitations in handling sensitive medical data. The deployment and integration of models into healthcare workflows require careful consideration of ethical, legal, and operational aspects. Moreover, the project emphasizes the need for continuous monitoring and improvement to ensure models remain accurate and relevant in dynamic healthcare environments.
 
-## Classification Results for DNN Model
+#### Classification Results for DNN Model
 
-Epoch 10/10 - loss: 0.2120 - accuracy: 0.9222 - auc: 0.8609 - val_loss: 0.2093 - val_accuracy: 0.9233 - val_auc: 0.8678
+Epoch 25/25 - loss: 0.2120 - accuracy: 0.9422 - auc: 0.8909 - val_loss: 0.2093 - val_accuracy: 0.9433 - val_auc: 0.8978
