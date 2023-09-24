@@ -1,6 +1,7 @@
 # Patient-Survival-Prediction
 
-Kaggle Notebook: https://www.kaggle.com/code/shirshmall/patient-survival-detection/
+Kaggle Notebook - Predictive Model: https://www.kaggle.com/code/shirshmall/patient-survival-detection/
+Kaggle Notebook - EDA: https://www.kaggle.com/code/shirshmall/eda-patient-survival-detection/notebook
 
 # Patient Survival Prediction using Machine Learning
 
