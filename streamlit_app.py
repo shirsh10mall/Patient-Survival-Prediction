@@ -37,7 +37,7 @@ def show_predict_page():
 
     df = pd.DataFrame(values)
     print("yo")
-    df = df[["apache_4a_hospital_death_prob", "apache_4a_icu_death_prob", "gcs_motor_apache", "gcs_verbal_apache", "gcs_eyes_apache", "ventilated_apache", "d1_sysbp_min", "d1_sysbp_noninvasive_min"]]
+    df = df[["apache_4a_hospital_death_prob", "apache_4a_icu_death_prob", "gcs_motor_apache", "gcs_verbal_apache", "ventilated_apache", "gcs_eyes_apache", "d1_sysbp_min", "d1_sysbp_noninvasive_min"]]
     print(df)
     DM_df = DMatrix(df)
     print("yo")
