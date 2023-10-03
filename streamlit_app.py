@@ -41,8 +41,11 @@ def show_predict_page():
     
     if ok:
         predictions = model.predict(DM_df)
-        # predictions = predictions[0]
+        pred = predictions[0]
 
-        st.write("#### Prediction : "+str( predictions[0] ) )
+        if pred<0.5:
+            st.write("#### Prediction : 1 | Patient Death" )
+        else:
+            st.write("#### Prediction : 0 | Patient Survived" )
 
 show_predict_page()
