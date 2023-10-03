@@ -37,14 +37,13 @@ The main objective is to predict 'hospital_death', a binary variable representin
 7. **SHAP Values for Model Interpretation:** SHAP values offer insights into feature impacts but can be complex to interpret, requiring additional effort to convey their significance.
 
 ## Impact
-This project underscores the significance of predictive models in healthcare. While it shows potential to aid medical decision-making, it also highlights the complexities and limitations in handling sensitive medical data. The deployment and integration of models into healthcare workflows require careful consideration of ethical, legal, and operational aspects. Moreover, the project emphasizes the need for continuous monitoring and improvement to ensure models remain accurate and relevant in dynamic healthcare environments.
+This project underscores the significance of predictive models in healthcare. While it shows potential to aid medical decision-making, it also highlights the complexities and limitations of handling sensitive medical data. The deployment and integration of models into healthcare workflows require careful consideration of ethical, legal, and operational aspects. Moreover, the project emphasizes the need for continuous monitoring and improvement to ensure models remain accurate and relevant in dynamic healthcare environments.
 
 #### Classification Results for DNN Model
 
 Epoch 30/100 (Early Stopping) - loss: 0.1898 - accuracy: 0.9296 - auc: 0.8938 - val_loss: 0.2112 - val_accuracy: 0.9226 - val_auc: 0.8804
 
-
-![image](https://github.com/shirsh10mall/Patient-Survival-Prediction/assets/87264071/e0a23eef-5bcb-4c6e-8630-ffbafef36975)
-![image](https://github.com/shirsh10mall/Patient-Survival-Prediction/assets/87264071/f8ad2954-b17a-4f93-8556-05a7c0ccaa28)
+![image](https://github.com/shirsh10mall/Patient-Survival-Prediction/assets/87264071/ce289b10-9239-4468-a693-0250c22c5af0)
+![image](https://github.com/shirsh10mall/Patient-Survival-Prediction/assets/87264071/d4a54333-bbc7-480e-bcf0-e4ae1f56ed61)
 
 
