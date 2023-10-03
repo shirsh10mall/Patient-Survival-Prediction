@@ -2,10 +2,12 @@
 
 Kaggle Notebooks 
  1. EDA: https://www.kaggle.com/code/shirshmall/eda-patient-survival-detection/notebook
+  
  2. ML Models - https://www.kaggle.com/code/shirshmall/ml-models-patient-survival-detection
+    
  3. Neural Network Model - https://www.kaggle.com/code/shirshmall/neural-network-model-patient-survival-detection
+ 
  4. Stacking Ensemble Model - https://www.kaggle.com/code/shirshmall/stacking-ensemble-model-patient-survival-detection
- <> 5. Previous: https://www.kaggle.com/code/shirshmall/patient-survival-detection
     
 # Patient Survival Prediction using Machine Learning
 
