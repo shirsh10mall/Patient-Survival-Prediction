@@ -36,15 +36,12 @@ def show_predict_page():
                 'd1_sysbp_noninvasive_min':[d1_sysbp_noninvasive_min], 'd1_sysbp_min':[d1_sysbp_min]}
 
     df = pd.DataFrame(values)
-    print("yo")
     df = df[["apache_4a_hospital_death_prob", "apache_4a_icu_death_prob", "gcs_motor_apache", "gcs_verbal_apache", "ventilated_apache", "gcs_eyes_apache", "d1_sysbp_min", "d1_sysbp_noninvasive_min"]]
-    print(df)
     DM_df = DMatrix(df)
-    print("yo")
-    print(DM_df)
+    
     if ok:
         predictions = model.predict(DM_df)
-        predictions = predictions[0]
+        # predictions = predictions[0]
 
         st.write("#### Prediction : "+str( predictions[0] ) )
 
