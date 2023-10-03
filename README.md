@@ -42,3 +42,9 @@ This project underscores the significance of predictive models in healthcare. Wh
 #### Classification Results for DNN Model
 
 Epoch 30/100 (Early Stopping) - loss: 0.1898 - accuracy: 0.9296 - auc: 0.8938 - val_loss: 0.2112 - val_accuracy: 0.9226 - val_auc: 0.8804
+
+
+![image](https://github.com/shirsh10mall/Patient-Survival-Prediction/assets/87264071/e0a23eef-5bcb-4c6e-8630-ffbafef36975)
+![image](https://github.com/shirsh10mall/Patient-Survival-Prediction/assets/87264071/f8ad2954-b17a-4f93-8556-05a7c0ccaa28)
+
+
