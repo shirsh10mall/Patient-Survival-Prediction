@@ -36,6 +36,7 @@ def show_predict_page():
                 'd1_sysbp_noninvasive_min':[d1_sysbp_noninvasive_min], 'd1_sysbp_min':[d1_sysbp_min]}
 
     df = pd.DataFrame(values)
+    df = df[["apache_4a_hospital_death_prob", "apache_4a_icu_death_prob", "gcs_motor_apache", "gcs_verbal_apache", "gcs_eyes_apache", "ventilated_apache", "d1_sysbp_min", "d1_sysbp_noninvasive_min"]]
     DM_df = DMatrix(df)
 
     if ok:
