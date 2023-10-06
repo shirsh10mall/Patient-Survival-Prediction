@@ -62,53 +62,51 @@ Of course! Let's dive into more detailed descriptions for each aspect of the pro
 
 4. **Created a Custom Deep Neural Network**:
 
-#### 4.1. Created a Simple Neural Network:
-- A basic neural network architecture was designed.
-- **Result:** Achieved an AUC score of 0.87 on both the training and testing sets, indicating no overfitting.
+    - 4.1. Created a Simple Neural Network:
+      - A basic neural network architecture was designed.
+      - Result: Achieved an AUC score of 0.87 on both the training and testing sets, indicating no overfitting.
+    
+    - 4.2. Enhanced Network with Batch Normalization, Dropout Layers, and Batch Size Tweaking:
+      - Additional layers, including batch normalization and dropout, were added to improve model robustness.
+      - The batch size was tweaked to optimize training.
+      - Result: Attained an AUC score of 0.86 on both training and testing sets, demonstrating no overfitting.
+    
+    - 4.3. Fine-Tuned Hyperparameters Using Keras Tuner:
+      - Utilized Keras Tuner to tune the hyperparameters of the neural network finely.
+      - Result: Achieved an AUC score of 0.866 on both training and testing sets. However, no significant improvement was observed compared to the previous neural network, indicating no overfitting.
 
-#### 4.2. Enhanced Network with Batch Normalization, Dropout Layers, and Batch Size Tweaking:
-- Additional layers, including batch normalization and dropout, were added to improve model robustness.
-- The batch size was tweaked to optimize training.
-- **Result:** Attained an AUC score of 0.86 on both training and testing sets, demonstrating no overfitting.
-
-#### 4.3. Fine-Tuned Hyperparameters Using Keras Tuner:
-- Utilized Keras Tuner to tune the hyperparameters of the neural network finely.
-- **Result:** Achieved an AUC score of 0.866 on both training and testing sets. However, no significant improvement was observed compared to the previous neural network, indicating no overfitting.
-
-
-5. Sure, let's break down the ensemble model creation and its variations into a pointwise manner:
 
 ### Ensemble Model Creation and Variations:
 
 5. **Create a Custom-Built Stacked Ensemble Model:**
    - Combining all the fine-tuned models to create a robust ensemble model for enhanced predictive performance.
+   
+   - 5.1. **Ensemble 1:  With Neural Network as Meta-Model:**
+      - Utilized all fine-tuned models as base models for the stacked ensemble.
+      - Introduced a simple neural network as the meta-model.
+      - Used output predictions of all base models as input to the meta-model.
+      - Results:
+        - Observed a minor level of overfitting.
+        - Achieved an AUC score of 0.865.
+        - AUC overfitting factor was approximately 0.001.
+   
+   - 5.2. **Ensemble 2: with Logistic Regression as Meta-Model:**
+      - Employed all fine-tuned models as base models for the stacked ensemble.
+      - Employed logistic regression as the meta-model.
+      - Results:
+        - Experienced a slight degree of overfitting.
+        - Attained an AUC score of 0.853.
+        - AUC overfitting factor was approximately 0.001.
+   
+   - 5.3. **Ensemble 3 and 4: With Weighted Output Predictions:**
+      - Combined Ensemble 3 and Ensemble 4 models.
+      - Implemented a weighted approach for the output predictions of the base models.
+      - Each model's output was multiplied by a corresponding overfitting factor.
+      - Results:
+        - Demonstrated very minimal overfitting.
+        - Achieved an AUC score of 0.86.
 
-5.1. **Ensemble 3 with Neural Network as Meta-Model:**
-   - Utilized all fine-tuned models as base models for the stacked ensemble.
-   - Introduced a simple neural network as the meta-model.
-   - Used output predictions of all base models as input to the meta-model.
-   - Results:
-     - Observed a minor level of overfitting.
-     - Achieved an AUC score of 0.865.
-     - AUC overfitting factor was approximately 0.001.
-
-5.2. **Ensemble 3 with Logistic Regression as Meta-Model:**
-   - Employed all fine-tuned models as base models for the stacked ensemble.
-   - Employed logistic regression as the meta-model.
-   - Results:
-     - Experienced a slight degree of overfitting.
-     - Attained an AUC score of 0.853.
-     - AUC overfitting factor was approximately 0.001.
-
-5.3. **Ensemble 3 and 4 with Weighted Output Predictions:**
-   - Combined Ensemble 3 and Ensemble 4 models.
-   - Implemented a weighted approach for the output predictions of the base models.
-   - Each model's output was multiplied by a corresponding overfitting factor.
-   - Results:
-     - Demonstrated very minimal overfitting.
-     - Achieved an AUC score of 0.86.
-
-These variations in ensemble models showcase different strategies in utilizing base models and meta-models to achieve an optimal balance between predictive performance and overfitting, ultimately contributing to the overall robustness of the predictive model.
+   - These variations in ensemble models showcase different strategies in utilizing base models and meta-models to achieve an optimal balance between predictive performance and overfitting, ultimately contributing to the overall robustness of the predictive model.
 
 6. **Hyperparameter Tuning for XGBoost Model:**
    - **Approach:**
