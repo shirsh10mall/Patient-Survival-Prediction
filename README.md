@@ -76,10 +76,10 @@ Of course! Let's dive into more detailed descriptions for each aspect of the pro
       - Result: Achieved an AUC score of 0.866 on both training and testing sets. However, no significant improvement was observed compared to the previous neural network, indicating no overfitting.
 
 
-### Ensemble Model Creation and Variations:
+5. **Ensemble Model Creation and Variations**:
 
-5. **Create a Custom-Built Stacked Ensemble Model:**
-   - Combining all the fine-tuned models to create a robust ensemble model for enhanced predictive performance.
+   - **Create a Custom-Built Stacked Ensemble Model:**
+      - Combining all the fine-tuned models to create a robust ensemble model for enhanced predictive performance.
    
    - 5.1. **Ensemble 1:  With Neural Network as Meta-Model:**
       - Utilized all fine-tuned models as base models for the stacked ensemble.
